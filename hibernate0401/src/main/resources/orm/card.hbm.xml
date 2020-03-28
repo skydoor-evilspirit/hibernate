@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.duyi.domain">
+    <class name="Card" table="card">
+        <id name="cid" column="cid">
+            <generator class="foreign">
+                <param name="property">people</param>
+            </generator>
+        </id>
+        <property name="address" column="address"/>
+        <property name="roleNum" column="role_num"/>
+
+        <one-to-one name="people" class="People" cascade="all"/>
+    </class>
+</hibernate-mapping>

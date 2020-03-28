@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/hibernate.iml" filepath="$PROJECT_DIR$/.idea/hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate0101/hibernate0101.iml" filepath="$PROJECT_DIR$/hibernate0101/hibernate0101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate0201/hibernate0201.iml" filepath="$PROJECT_DIR$/hibernate0201/hibernate0201.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate03/hibernate03.iml" filepath="$PROJECT_DIR$/hibernate03/hibernate03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate0401/hibernate0401.iml" filepath="$PROJECT_DIR$/hibernate0401/hibernate0401.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate0402/hibernate0402.iml" filepath="$PROJECT_DIR$/hibernate0402/hibernate0402.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate0403/hibernate0403.iml" filepath="$PROJECT_DIR$/hibernate0403/hibernate0403.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate0501/hibernate0501.iml" filepath="$PROJECT_DIR$/hibernate0501/hibernate0501.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate0502/hibernate0502.iml" filepath="$PROJECT_DIR$/hibernate0502/hibernate0502.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate0603/hibernate0603.iml" filepath="$PROJECT_DIR$/hibernate0603/hibernate0603.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate0701-SSH/hibernate0701-SSH.iml" filepath="$PROJECT_DIR$/hibernate0701-SSH/hibernate0701-SSH.iml" />
+    </modules>
+  </component>
+</project>

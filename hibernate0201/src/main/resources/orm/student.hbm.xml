@@ -3,7 +3,7 @@
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="com.duing.domain.Student" table="student">
+    <class name="com.duing.com.duing.domain.Student" table="student">
         <id name="id" column="id">
             <generator class="uuid"></generator>
         </id>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.duyi.domain">
+    <class name="Teacher" table="teacher">
+        <id name="tno" column="tno">
+            <generator class="identity"></generator>
+        </id>
+        <property name="tname" column="tname"/>
+        <property name="tsalary" column="tsalary"/>
+
+        <set name="ss" table="teacher_student_mapper" cascade="all">
+            <key column="tno"/>
+            <many-to-many column="sno" class="Student"/>
+        </set>
+    </class>
+</hibernate-mapping>

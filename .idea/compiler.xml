@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hibernate0701-SSH" />
+        <module name="hibernate0603" />
+        <module name="hibernate0403" />
+        <module name="hibernate0402" />
+        <module name="hibernate0401" />
+        <module name="hibernate0201" />
+        <module name="hibernate0502" />
+        <module name="hibernate03" />
+        <module name="hibernate0501" />
+        <module name="hibernate0101" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hibernate0101" target="1.8" />
+      <module name="hibernate0201" target="1.8" />
+      <module name="hibernate03" target="1.8" />
+      <module name="hibernate0401" target="1.8" />
+      <module name="hibernate0402" target="1.8" />
+      <module name="hibernate0403" target="1.8" />
+      <module name="hibernate0501" target="1.8" />
+      <module name="hibernate0502" target="1.8" />
+      <module name="hibernate0603" target="1.8" />
+      <module name="hibernate0701-SSH" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.duyi.domain">
+<class name="Emp" table="t_emp">
+    <id name="eno" column="eno">
+        <generator class="identity"></generator>
+    </id>
+    <property name="ename" column="ename"/>
+
+    <many-to-one name="dept" column="dno" class="Dept" cascade="all"/>
+</class>
+</hibernate-mapping>
